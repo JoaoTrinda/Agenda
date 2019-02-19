@@ -10,7 +10,7 @@ public class SQlitehelper extends SQLiteOpenHelper {
 
     private  static final Integer  DB_VERSION  = 1;
 
-    private final String DB_CREATE = "CREATE TABLE CONTATO (ID INTERGER PRIMARY KEY AUTOINCREMENT, NOME TEXT,  TELEFONE TEXT,  PONTUACAO REAL)";
+    private final String DB_CREATE = "CREATE TABLE CONTATO (ID INTEGER PRIMARY KEY AUTOINCREMENT, NOME TEXT,  TELEFONE TEXT,  PONTUACAO REAL);";
 
     public SQlitehelper(Context context) {
         super(context, DB_NAME, null, DB_VERSION);

@@ -20,6 +20,8 @@ public class ContatoEntity {
 
     }
 
+    public ContatoEntity() {
+    }
 
     public Integer getId() {
         return id;
